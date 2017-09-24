@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfDuplexChat", "wpfDuplexChat\wpfDuplexChat.csproj", "{41AC5B9B-16C4-4747-8F1E-FEA218BC40DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{AFCB893B-D155-4F06-AC12-D5E86ACFC259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{A695912C-E61B-4A48-A1CD-4211F762E644}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{41AC5B9B-16C4-4747-8F1E-FEA218BC40DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41AC5B9B-16C4-4747-8F1E-FEA218BC40DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41AC5B9B-16C4-4747-8F1E-FEA218BC40DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41AC5B9B-16C4-4747-8F1E-FEA218BC40DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFCB893B-D155-4F06-AC12-D5E86ACFC259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCB893B-D155-4F06-AC12-D5E86ACFC259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCB893B-D155-4F06-AC12-D5E86ACFC259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCB893B-D155-4F06-AC12-D5E86ACFC259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A695912C-E61B-4A48-A1CD-4211F762E644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A695912C-E61B-4A48-A1CD-4211F762E644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A695912C-E61B-4A48-A1CD-4211F762E644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A695912C-E61B-4A48-A1CD-4211F762E644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
